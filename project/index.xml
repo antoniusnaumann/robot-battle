@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on jotaro shigeyama</title>
+    <link>https://jotaros.github.io/project/</link>
+    <description>Recent content in Projects on jotaro shigeyama</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Jotaro Shigeyama</copyright>
+    <lastBuildDate>Tue, 12 Sep 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://jotaros.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Self avatar pseudo-haptics in Virtual Reality</title>
+      <link>https://jotaros.github.io/project/pseudo-haptics-vr/</link>
+      <pubDate>Tue, 12 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jotaros.github.io/project/pseudo-haptics-vr/</guid>
+      <description>We propose a system that presents a feeling of resistive force by modifying joint angles of user’s avatar, and an approach to reduce a feeling of discomfort evoked by a conflict between visual and proprioceptive sensations. Pseudo-haptic feedback enables us to provide haptic sensations by making discrepancy between the position of user’s body in the real world and avatar which represents a part of user’s body in an immersive virtual environment without using any complicated devices.</description>
+    </item>
+    
+    <item>
+      <title>Swinging 3D Lamps</title>
+      <link>https://jotaros.github.io/project/swinging-3d-lamps/</link>
+      <pubDate>Tue, 12 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jotaros.github.io/project/swinging-3d-lamps/</guid>
+      <description>under construction</description>
+    </item>
+    
+    <item>
+      <title>AgIC Workshop Collection installation design</title>
+      <link>https://jotaros.github.io/project/workshop_collection/</link>
+      <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jotaros.github.io/project/workshop_collection/</guid>
+      <description>&amp;ldquo;Workshop Collection 10&amp;rdquo;, held in Tokyo was full of families and children to experience the latest technologies. AgIC workshop has exhibited an installation to show what&amp;rsquo;s possible with its product: conductive ink.
+The installation is designed to be one of Japanese ethnic ornament &amp;ldquo;Kazaguruma&amp;rdquo;, a litte windmill. Japanese ethnic pattern &amp;ldquo;Wagara&amp;rdquo; is printed with conductive ink on each mill with chip LED mouted. Sensors on the board detects human passage, and mills rotate as if wind blew on them.</description>
+    </item>
+    
+    <item>
+      <title>JTRWatch</title>
+      <link>https://jotaros.github.io/project/jtrwatch/</link>
+      <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jotaros.github.io/project/jtrwatch/</guid>
+      <description>JTRWatch is a prototype of smartwatch using Intel Edison, built in 2 weeks during a school project.</description>
+    </item>
+    
+    <item>
+      <title>Lighting Coaster:AgIC Workshop design</title>
+      <link>https://jotaros.github.io/project/agic_workshop/</link>
+      <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jotaros.github.io/project/agic_workshop/</guid>
+      <description>We organized a new program of workshop where we made lightning coaster, using Circuit Sticker from Chibitronics. AgIC got a 2nd prize in Global Fab Award in the event.</description>
+    </item>
+    
+    <item>
+      <title>Project CoPRO</title>
+      <link>https://jotaros.github.io/project/copro/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jotaros.github.io/project/copro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dokimakura:Hugging pillow with realistic haptic feedback</title>
+      <link>https://jotaros.github.io/project/dokimakura/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://jotaros.github.io/project/dokimakura/</guid>
+      <description>&amp;ldquo;Dokimakura&amp;rdquo; is the hugging pillow with realistic heartbeat haptic feedback through &amp;ldquo;soinet&amp;rdquo;:heartbeat SNS platform. This project is awarded the best prize in the hackathon &amp;ldquo;HackU&amp;rdquo; by Yahoo! Japan inc.
+Dokimakura is designed to show augmentation of &amp;lsquo;presence&amp;rsquo;, feeling of &amp;ldquo;someone&amp;rsquo;s there&amp;rdquo;, of especially beloved one. Loneliness is a major problem of modern stressful city. We thought that act of hug, feeling of warmth and life can reduce the feeling of loneliness.</description>
+    </item>
+    
+    <item>
+      <title>Farmbot</title>
+      <link>https://jotaros.github.io/project/farmbot/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://jotaros.github.io/project/farmbot/</guid>
+      <description>Farmbot is a opensource agricultural robot project by farmbot.io. First working copy of the project was built for the exhibition in Tsuruoka Art Forum, during the exhibition Agricultural Revolution 3.0 organized by Object of null,Inc..</description>
+    </item>
+    
+    <item>
+      <title>Remote aerobotics project</title>
+      <link>https://jotaros.github.io/project/plane/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://jotaros.github.io/project/plane/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

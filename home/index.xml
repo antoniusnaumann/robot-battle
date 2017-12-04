@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on jotaro shigeyama</title>
+    <link>https://jotaros.github.io/home/</link>
+    <description>Recent content in Homes on jotaro shigeyama</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Jotaro Shigeyama</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://jotaros.github.io/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://jotaros.github.io/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://jotaros.github.io/home/about/</guid>
+      <description>Jotaro Shigeyama (born in 1993) is currently a Master&amp;rsquo;s student in Cyber Interface Lab, the University of Tokyo. He studied computer science in the university after finished associate degree in mechanical and electrical engineering in a college of technology and Bachelor&amp;rsquo;s degree in mechano-informatics engineering in the University of Tokyo. He spent 3 month research internship in Hasso Plattner Institute, Germany. His current research area is virtual reality and human computer interaction</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://jotaros.github.io/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://jotaros.github.io/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Publications,Awards</title>
+      <link>https://jotaros.github.io/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://jotaros.github.io/home/publications/</guid>
+      <description>Publications / Journals (Peer Reviewed)
+ Nami Ogawa, Jotaro Shigeyama, Takuji Narumi and Michitaka Hirose: Swinging 3D Lamps: A Projection Technique to Create 3D Illusions on a Static 2D Image, SIGGRAPH Asia 2017 Emerging Technologies, to be appeared
+ Jotaro Shigeyama, Nami Ogawa, Takuji Narumi, Tomohiro Tanikawa and Michitaka Hirose: Presenting resistive force by modifying joint angles of an avatar, VRSJ Jounal Vol.22, No.3, 2017
+  Publications / Journals (No Review)</description>
+    </item>
+    
+  </channel>
+</rss>

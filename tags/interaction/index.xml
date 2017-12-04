@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Interaction on jotaro shigeyama</title>
+    <link>https://jotaros.github.io/tags/interaction/</link>
+    <description>Recent content in Interaction on jotaro shigeyama</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Jotaro Shigeyama</copyright>
+    <lastBuildDate>Tue, 12 Sep 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://jotaros.github.io/tags/interaction/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Self avatar pseudo-haptics in Virtual Reality</title>
+      <link>https://jotaros.github.io/project/pseudo-haptics-vr/</link>
+      <pubDate>Tue, 12 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jotaros.github.io/project/pseudo-haptics-vr/</guid>
+      <description>We propose a system that presents a feeling of resistive force by modifying joint angles of user’s avatar, and an approach to reduce a feeling of discomfort evoked by a conflict between visual and proprioceptive sensations. Pseudo-haptic feedback enables us to provide haptic sensations by making discrepancy between the position of user’s body in the real world and avatar which represents a part of user’s body in an immersive virtual environment without using any complicated devices.</description>
+    </item>
+    
+    <item>
+      <title>Swinging 3D Lamps</title>
+      <link>https://jotaros.github.io/project/swinging-3d-lamps/</link>
+      <pubDate>Tue, 12 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jotaros.github.io/project/swinging-3d-lamps/</guid>
+      <description>under construction</description>
+    </item>
+    
+    <item>
+      <title>AgIC Workshop Collection installation design</title>
+      <link>https://jotaros.github.io/project/workshop_collection/</link>
+      <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jotaros.github.io/project/workshop_collection/</guid>
+      <description>&amp;ldquo;Workshop Collection 10&amp;rdquo;, held in Tokyo was full of families and children to experience the latest technologies. AgIC workshop has exhibited an installation to show what&amp;rsquo;s possible with its product: conductive ink.
+The installation is designed to be one of Japanese ethnic ornament &amp;ldquo;Kazaguruma&amp;rdquo;, a litte windmill. Japanese ethnic pattern &amp;ldquo;Wagara&amp;rdquo; is printed with conductive ink on each mill with chip LED mouted. Sensors on the board detects human passage, and mills rotate as if wind blew on them.</description>
+    </item>
+    
+    <item>
+      <title>Lighting Coaster:AgIC Workshop design</title>
+      <link>https://jotaros.github.io/project/agic_workshop/</link>
+      <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jotaros.github.io/project/agic_workshop/</guid>
+      <description>We organized a new program of workshop where we made lightning coaster, using Circuit Sticker from Chibitronics. AgIC got a 2nd prize in Global Fab Award in the event.</description>
+    </item>
+    
+    <item>
+      <title>Project CoPRO</title>
+      <link>https://jotaros.github.io/project/copro/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jotaros.github.io/project/copro/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on jotaro shigeyama</title>
+    <link>https://jotaros.github.io/post/</link>
+    <description>Recent content in Posts on jotaro shigeyama</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Jotaro Shigeyama</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://jotaros.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>test</title>
+      <link>https://jotaros.github.io/post/about/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jotaros.github.io/post/about/</guid>
+      <description>Header 2 ああ
+Header 3 ああああ
+Header 3 Header 3 吾輩は猫である。 - 🐱 - 🐩 - meow.</description>
+    </item>
+    
+  </channel>
+</rss>
