@@ -18,7 +18,7 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://jotaros.github.io/home/about/</guid>
-      <description>Jotaro Shigeyama (born in 1993) is currently a Master&amp;rsquo;s student in Cyber Interface Lab, the University of Tokyo. He studied computer science in the university after finished associate degree in mechanical and electrical engineering in a college of technology and Bachelor&amp;rsquo;s degree in mechano-informatics engineering in the University of Tokyo. He spent 3 month research internship in Hasso Plattner Institute, Germany. His current research area is virtual reality and human computer interaction.</description>
+      <description>Jotaro Shigeyama (born in 1993) is currently a Master&amp;rsquo;s student in Cyber Interface Lab, the University of Tokyo. He is studying computer science in the graduate school of The University of Tokyo, after finished Associate degree in mechanical and electrical engineering in a college of technology and Bachelor&amp;rsquo;s degree in mechano-informatics engineering in the University of Tokyo. He spent 3 month research internship in Hasso Plattner Institute, Germany. His current research area is virtual reality and human computer interaction.</description>
     </item>
     
     <item>
@@ -103,9 +103,14 @@ The installation is designed to be one of Japanese ethnic ornament &amp;ldquo;Ka
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jotaros.github.io/post/about/</guid>
-      <description>Header 2 ああ
+      <description> Header 2 ああ
 Header 3 ああああ
-Header 3 Header 3 吾輩は猫である。 - 🐱 - 🐩 - meow.</description>
+Header 3 Header 3 吾輩は猫である。
+ 🐱 🐩 meow.  $$\zeta (s)={\frac {1}{\Gamma (s)}}\,\int _{0}^{\infty }={\frac {u^{s-1}}{e^{u}-1}}$$
+Zeta Function is here
+code
+ citation.
+ </description>
     </item>
     
     <item>

@@ -18,9 +18,14 @@
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jotaros.github.io/post/about/</guid>
-      <description>Header 2 ああ
+      <description> Header 2 ああ
 Header 3 ああああ
-Header 3 Header 3 吾輩は猫である。 - 🐱 - 🐩 - meow.</description>
+Header 3 Header 3 吾輩は猫である。
+ 🐱 🐩 meow.  $$\zeta (s)={\frac {1}{\Gamma (s)}}\,\int _{0}^{\infty }={\frac {u^{s-1}}{e^{u}-1}}$$
+Zeta Function is here
+code
+ citation.
+ </description>
     </item>
     
   </channel>
