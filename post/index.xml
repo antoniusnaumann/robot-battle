@@ -13,6 +13,22 @@
     
     
     <item>
+      <title>Hugoでアカデミックなポートフォリオサイト兼ブログをつくってみた</title>
+      <link>https://jotaros.github.io/post/hugo-theme/</link>
+      <pubDate>Wed, 20 Dec 2017 00:00:00 +0900</pubDate>
+      
+      <guid>https://jotaros.github.io/post/hugo-theme/</guid>
+      <description>修士以降の学生で研究に取り組んでいると、自分のプロジェクトやpublicationをまとめたシンプルなウェブページが欲しくなってくる。Wordpressやstrikinglyみたいなサービスが出ているが、オリジナルのWebページを作りたいときには制約が多かったり、機能が多すぎたりすることがある。
+HugoはGo言語で記述された、 スゴイハヤイ静的ウェブジェネレータである。 記事やプロジェクトなどを Markdown記法 で記述することで投稿したり更新したりできるため、普段mdでノート取ってる方やQiitaの諸兄・諸姉には非常に使い勝手のいいWebジェネレータであると思う。
+今回は Academic テーマをベースにオリジナルページを作成してみた。
+ウェブサイトはこちら : web
+使い方（初めての人へ） https://gohugo.io/getting-started/quick-start/ チュートリアルはここから
+ brewでインストール  brew install hugo   プロジェクトを生成  hugo new site yourSiteName   テーマを導入  cd yourSiteName git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke echo &#39;theme = &amp;quot;ananke&amp;quot;&#39; &amp;gt;&amp;gt; config.toml  ここでは、yourSiteNameプロジェクト内のthemeフォルダに、submoduleとしてテーマプロジェクトを追加している。 テーマプロジェクト内は基本的には生成したプロジェクトと同様の構造となっており、exampleもあるので改造しやすい。 プロジェクトを追加したときに生成されるconfig.tomlを書き換えてテーマをアクティブにする必要がある。
+ 記事を投稿  hugo new posts/my-first-post.md  config.tomlに以下の文言を追加して、
+baseURL = &amp;quot;https://example.org/&amp;quot; languageCode = &amp;quot;en-us&amp;quot; title = &amp;quot;My New Hugo Site&amp;quot; theme = &amp;quot;ananke&amp;quot;   サイトを生成（ビルド）  hugo server -D  localhost:1337にアクセスすると、生成されたウェブサイトが見れる。たったこれだけでWEBサイトが完成してしまう。</description>
+    </item>
+    
+    <item>
       <title>ドイツのHCI系トップ研究室に行ってインターンしてきた話</title>
       <link>https://jotaros.github.io/post/kenkyu-ryugaku/</link>
       <pubDate>Thu, 07 Dec 2017 00:00:00 +0900</pubDate>
