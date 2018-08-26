@@ -37,8 +37,18 @@
       
       <guid>https://jotaros.github.io/home/publications/</guid>
       <description>Publications / Journals (Peer Reviewed)
- Oliver Schneider, Jotaro Shigeyama, Robert Kovacs, Thijs Jan Roumen, Sebastian Marwecki, Nico Boeckhoff, Patrick Baudisch, DualPanto: A Haptic Device that Enables Blind Users to Continuously Interact with Virtual Worlds In Proceedings of UIST&amp;rsquo;18, October, TO APPEAR
+ Oliver Schneider, Jotaro Shigeyama, Robert Kovacs, Thijs Jan Roumen, Sebastian Marwecki, Nico Boeckhoff, Patrick Baudisch, DualPanto: A Haptic Device that Enables Blind Users to Continuously Interact with Virtual Worlds, In Proceedings of UIST&amp;rsquo;18, October, TO APPEAR
  Jotaro Shigeyama, Nami Ogawa, Takuji Narumi, Tomohiro Tanikawa and Michitaka Hirose: Presenting resistive force by modifying joint angles of an avatar, VRSJ Jounal Special Issue, Vol.22, No.3, 2017</description>
+    </item>
+    
+    <item>
+      <title>DualPanto: A Haptic Device that Enables Blind Users to Continuously Interact with Virtual Worlds</title>
+      <link>https://jotaros.github.io/project/dualpanto/</link>
+      <pubDate>Mon, 20 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://jotaros.github.io/project/dualpanto/</guid>
+      <description>We present a new haptic device that enables blind users to continuously track the absolute position of moving objects in spatial virtual environments, as is the case in sports or shooter games. Users interact with DualPanto by operating the me handle with one hand and by holding on to the it handle with the other hand.
+Each handle is connected to a pantograph haptic input/output device. The key feature is that the two handles are spatially registered with respect to each other.</description>
     </item>
     
     <item>

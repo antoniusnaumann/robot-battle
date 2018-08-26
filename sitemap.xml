@@ -18,6 +18,11 @@
   </url>
   
   <url>
+    <loc>https://jotaros.github.io/project/dualpanto/</loc>
+    <lastmod>2018-08-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jotaros.github.io/project/transcalibur/</loc>
     <lastmod>2018-07-01T00:00:00+00:00</lastmod>
   </url>
@@ -122,7 +127,7 @@
   
   <url>
     <loc>https://jotaros.github.io/project/</loc>
-    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-08-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -134,6 +139,12 @@
   <url>
     <loc>https://jotaros.github.io/tags/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jotaros.github.io/tags/uist/</loc>
+    <lastmod>2018-08-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

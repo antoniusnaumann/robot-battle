@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Uist on jotaro shigeyama</title>
+    <link>https://jotaros.github.io/tags/uist/</link>
+    <description>Recent content in Uist on jotaro shigeyama</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Jotaro Shigeyama</copyright>
+    <lastBuildDate>Mon, 20 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://jotaros.github.io/tags/uist/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DualPanto: A Haptic Device that Enables Blind Users to Continuously Interact with Virtual Worlds</title>
+      <link>https://jotaros.github.io/project/dualpanto/</link>
+      <pubDate>Mon, 20 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://jotaros.github.io/project/dualpanto/</guid>
+      <description>We present a new haptic device that enables blind users to continuously track the absolute position of moving objects in spatial virtual environments, as is the case in sports or shooter games. Users interact with DualPanto by operating the me handle with one hand and by holding on to the it handle with the other hand.
+Each handle is connected to a pantograph haptic input/output device. The key feature is that the two handles are spatially registered with respect to each other.</description>
+    </item>
+    
+  </channel>
+</rss>
