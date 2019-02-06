@@ -6,11 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="Jotaro Shigeyama" content="">
+    <title>Jotaro's Portfolio Website</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="https://jotaros.github.io/css/prism.css">
+    
     <link rel="stylesheet" href="https://jotaros.github.io/css/custom.css">
-    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:300|Open+Sans" rel="stylesheet">
+    
+
+    <script type="text/javascript" src="https://jotaros.github.io/js/prism.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,500" rel="stylesheet">
+
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132972254-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-132972254-1');
+    </script>
+
 </head>
 
 <body>
@@ -42,7 +59,6 @@
 
 
 
-
 <div class="universal-wrapper">
 
   <h4>Posts</h4>
@@ -50,6 +66,20 @@
   
 
   
+  
+  <div>
+    
+    <h6><a href="https://jotaros.github.io/post/psycho-1/">知覚のベイズ統計的モデル:感覚強度曲線(1)</a></h6>
+    <p>Tue, Feb 5, 2019</p>
+  </div>
+  <hr>
+  
+  <div>
+    
+    <h6><a href="https://jotaros.github.io/post/psycho/">知覚のベイズ統計的モデル:感覚強度曲線(1)</a></h6>
+    <p>Mon, Feb 5, 2018</p>
+  </div>
+  <hr>
   
   <div>
     
@@ -74,7 +104,7 @@
   
   <div>
     
-    <h6><a href="https://jotaros.github.io/post/about/">test</a></h6>
+    <h6><a href="https://jotaros.github.io/post/about/">Test</a></h6>
     <p>Sun, Jan 1, 2017</p>
   </div>
   <hr>
@@ -92,9 +122,28 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
     crossorigin="anonymous"></script>
 <script src="https://jotaros.github.io/js/custom.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  displayIndent: "2em",
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    processEscapes: true
+  },
+  "HTML-CSS": {
+    availableFonts: [],
+    webFont: "Neo-Euler",
+    mtextFontInherit: true,
+    matchFontHeight: false,
+    scale:120
+  }
+});
+</script>
+<script type="text/javascript"
+src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML">
 </script>
 
+<p id="footer-copyright" align="right">Jotaro Shigeyama, 2019, All Right Reserved.</p>
 </div>
 </body>
 
