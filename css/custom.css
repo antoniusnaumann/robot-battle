@@ -131,7 +131,9 @@ img{
   width: 100%;
   min-height: 200px;
   /* height: 150px; */
-  object-fit: cover; /* この一行を追加するだけ！ */
+  object-fit: cover;
+  margin-top: 2em;
+  margin-bottom: 1em;
 }
 
 .container #container-single a{
