@@ -77,7 +77,7 @@ p.course{
 h1,h2,h3,h4,h5,h6{
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 0.1em;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -129,11 +129,17 @@ a:hover{
 
 img{
   width: 100%;
-  min-height: 200px;
+  min-height: 0px;
   /* height: 150px; */
-  object-fit: cover;
-  margin-top: 2em;
+  object-fit: contain;
+  /* margin-top: 2em; */
   margin-bottom: 1em;
+  max-height: 400px;
+}
+
+img.half{
+    min-height:0px;
+    width: 49%;
 }
 
 .container #container-single a{
@@ -153,7 +159,7 @@ img{
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     letter-spacing: 0.15em;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
@@ -163,7 +169,7 @@ img{
     color:#222222;
     font-size: 18px;
     letter-spacing: 0.15em;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     margin-top: 60px;
     margin-bottom: 30px;
     padding-bottom: 10px;
