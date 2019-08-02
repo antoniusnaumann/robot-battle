@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mech on jotaro shigeyama</title>
+    <title>mech on jotaro shigeyama</title>
     <link>https://jotaros.github.io/tags/mech/</link>
-    <description>Recent content in Mech on jotaro shigeyama</description>
+    <description>Recent content in mech on jotaro shigeyama</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Jotaro Shigeyama</copyright>
@@ -18,11 +18,7 @@
       <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://jotaros.github.io/project/transcalibur/</guid>
-      <description>Downloads: Preprint Paper (PDF 7MB) // Movie (MP3 20MB) // Press Kit (ZIP Archive 20MB)
-  
- Transcalibur: A Weight Shifting Virtual Reality Controller
-for 2D Shape Rendering based on Computational Perception Model
-Abstract Humans can estimate the shape of a wielded object through the illusory feeling of the mass properties of the object obtained using their hands. Even though the shape of hand-held objects influences immersion and realism in virtual reality (VR), it is difficult to design VR controllers for rendering desired shapes according to the perceptions derived from the illusory effects of mass properties and shape perception.</description>
+      <description>Weight Moving VR Controller for Dynamic Rendering of 2D Shape Using Haptic Shape Illusion &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt; &lt;img src=&#39;img/hm.png&#39; style=&#39;width:30px; min-height:30px; margin-bottom:0px;&#39;&gt;&lt;u style=&#39;color:#FF3F80&#39;&gt;&lt;strong&gt;&lt;em&gt;[Full-paper got awarded Honorable Mention at CHI2019]&lt;/em&gt;&lt;/strong&gt; &lt;/u&gt;</description>
     </item>
     
     <item>
@@ -31,8 +27,7 @@ Abstract Humans can estimate the shape of a wielded object through the illusory 
       <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jotaros.github.io/project/workshop_collection/</guid>
-      <description>&amp;ldquo;Workshop Collection 10&amp;rdquo;, held in Tokyo was full of families and children to experience the latest technologies. AgIC workshop has exhibited an installation to show what&amp;rsquo;s possible with its product: conductive ink.
-The installation is designed to be one of Japanese ethnic ornament &amp;ldquo;Kazaguruma&amp;rdquo;, a litte windmill. Japanese ethnic pattern &amp;ldquo;Wagara&amp;rdquo; is printed with conductive ink on each mill with chip LED mouted. Sensors on the board detects human passage, and mills rotate as if wind blew on them.</description>
+      <description>An installation showed how conductive ink can design to be &lt;em&gt;flexible&lt;/em&gt;.</description>
     </item>
     
     <item>
@@ -41,7 +36,7 @@ The installation is designed to be one of Japanese ethnic ornament &amp;ldquo;Ka
       <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jotaros.github.io/project/jtrwatch/</guid>
-      <description>JTRWatch is a prototype of smartwatch using Intel Edison, built in 2 weeks during a school project.</description>
+      <description>Smart watch prototype using Intel Edison</description>
     </item>
     
     <item>
@@ -50,7 +45,7 @@ The installation is designed to be one of Japanese ethnic ornament &amp;ldquo;Ka
       <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jotaros.github.io/project/agic_workshop/</guid>
-      <description>We organized a new program of workshop where we made lightning coaster, using Circuit Sticker from Chibitronics. AgIC got a 2nd prize in Global Fab Award in the event.</description>
+      <description>AgIC tutorial designed for FAB10 Barcelona.</description>
     </item>
     
     <item>
@@ -59,8 +54,7 @@ The installation is designed to be one of Japanese ethnic ornament &amp;ldquo;Ka
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://jotaros.github.io/project/dokimakura/</guid>
-      <description>&amp;ldquo;Dokimakura&amp;rdquo; is the hugging pillow with realistic heartbeat haptic feedback through &amp;ldquo;soinet&amp;rdquo;:heartbeat SNS platform. This project is awarded the best prize in the hackathon &amp;ldquo;HackU&amp;rdquo; by Yahoo! Japan inc.
-Dokimakura is designed to show augmentation of &amp;lsquo;presence&amp;rsquo;, feeling of &amp;ldquo;someone&amp;rsquo;s there&amp;rdquo;, of especially beloved one. Loneliness is a major problem of modern stressful city. We thought that act of hug, feeling of warmth and life can reduce the feeling of loneliness.</description>
+      <description>Designing physiological SNS, awarded 1st prize on hackathon by Yahoo!.</description>
     </item>
     
     <item>
@@ -69,7 +63,7 @@ Dokimakura is designed to show augmentation of &amp;lsquo;presence&amp;rsquo;, f
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://jotaros.github.io/project/farmbot/</guid>
-      <description>Farmbot is a opensource agricultural robot project by farmbot.io. First working copy of the project was built for the exhibition in Tsuruoka Art Forum, during the exhibition Agricultural Revolution 3.0 organized by Object of null,Inc..</description>
+      <description>CNC agricultural robot for IoT farming.</description>
     </item>
     
     <item>
@@ -78,7 +72,7 @@ Dokimakura is designed to show augmentation of &amp;lsquo;presence&amp;rsquo;, f
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://jotaros.github.io/project/plane/</guid>
-      <description></description>
+      <description>Remote controlled and automatic attitude controlled airplane project.</description>
     </item>
     
   </channel>

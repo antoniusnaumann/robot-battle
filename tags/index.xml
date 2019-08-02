@@ -7,31 +7,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Jotaro Shigeyama</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://jotaros.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Content tagged as &#39;Academic&#39;</title>
-      <link>https://jotaros.github.io/tags/academic/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://jotaros.github.io/tags/academic/</guid>
-      <description>Here is a list of all the content that has been tagged as academic.</description>
-    </item>
-    
-    <item>
-      <title>Interaction</title>
-      <link>https://jotaros.github.io/tags/interaction/</link>
-      <pubDate>Tue, 12 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://jotaros.github.io/tags/interaction/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mech</title>
+      <title>mech</title>
       <link>https://jotaros.github.io/tags/mech/</link>
       <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
       
@@ -40,7 +22,16 @@
     </item>
     
     <item>
-      <title>Uist</title>
+      <title>virtual reality</title>
+      <link>https://jotaros.github.io/tags/virtual-reality/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jotaros.github.io/tags/virtual-reality/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UIST</title>
       <link>https://jotaros.github.io/tags/uist/</link>
       <pubDate>Mon, 20 Aug 2018 00:00:00 +0000</pubDate>
       
@@ -49,12 +40,21 @@
     </item>
     
     <item>
-      <title>Virtual Reality</title>
-      <link>https://jotaros.github.io/tags/virtual-reality/</link>
-      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      <title>interaction</title>
+      <link>https://jotaros.github.io/tags/interaction/</link>
+      <pubDate>Tue, 12 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://jotaros.github.io/tags/virtual-reality/</guid>
+      <guid>https://jotaros.github.io/tags/interaction/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Content tagged as &#39;Academic&#39;</title>
+      <link>https://jotaros.github.io/tags/academic/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jotaros.github.io/tags/academic/</guid>
+      <description>Here is a list of all the content that has been tagged as academic.</description>
     </item>
     
   </channel>

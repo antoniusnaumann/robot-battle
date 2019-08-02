@@ -23,6 +23,36 @@
   </url>
   
   <url>
+    <loc>https://jotaros.github.io/project/</loc>
+    <lastmod>2019-03-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jotaros.github.io/tags/</loc>
+    <lastmod>2019-03-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jotaros.github.io/</loc>
+    <lastmod>2019-03-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jotaros.github.io/tags/mech/</loc>
+    <lastmod>2019-03-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jotaros.github.io/tags/virtual-reality/</loc>
+    <lastmod>2019-03-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://jotaros.github.io/post/psycho/</loc>
     <lastmod>2019-02-05T00:00:00+01:00</lastmod>
   </url>
@@ -30,6 +60,12 @@
   <url>
     <loc>https://jotaros.github.io/project/dualpanto/</loc>
     <lastmod>2018-08-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jotaros.github.io/tags/uist/</loc>
+    <lastmod>2018-08-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -55,6 +91,12 @@
   <url>
     <loc>https://jotaros.github.io/project/swinging-3d-lamps/</loc>
     <lastmod>2017-09-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jotaros.github.io/tags/interaction/</loc>
+    <lastmod>2017-09-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -108,60 +150,18 @@
   </url>
   
   <url>
-    <loc>https://jotaros.github.io/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://jotaros.github.io/home/</loc>
     <lastmod>2016-04-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://jotaros.github.io/tags/interaction/</loc>
-    <lastmod>2017-09-12T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://jotaros.github.io/tags/mech/</loc>
-    <lastmod>2019-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://jotaros.github.io/project/</loc>
-    <lastmod>2019-03-01T00:00:00+00:00</lastmod>
+    <loc>https://jotaros.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://jotaros.github.io/publication_types/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://jotaros.github.io/tags/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://jotaros.github.io/tags/uist/</loc>
-    <lastmod>2018-08-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://jotaros.github.io/tags/virtual-reality/</loc>
-    <lastmod>2019-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://jotaros.github.io/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
