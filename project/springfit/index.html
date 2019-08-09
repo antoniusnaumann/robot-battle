@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="Jotaro Shigeyama" content="">
+    <title>Jotaro's Portfolio Website</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://jotaros.github.io/css/prism.css">
+    
+    <link rel="stylesheet" href="https://jotaros.github.io/css/custom.css">
+    
+
+    <script type="text/javascript" src="https://jotaros.github.io/js/prism.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:300" rel="stylesheet">
+
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132972254-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-132972254-1');
+    </script>
+
+</head>
+
+<body>
+    <div class="container">
+        
+        <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https://jotaros.github.io/">Jotaro Shigeyama</a>
+
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto" id="navigator">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://jotaros.github.io/">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://jotaros.github.io/post">Blog</a>
+                    </li>
+
+                    
+
+                </ul>
+            </div>
+        </nav>
+  <div id="container-single">
+  <h1>springFit: Joints and Mounts that Fabricate on Any Laser-Cutter</h1>
+  <h2 id="date-content">-Thu, Aug 1, 2019-</h2>
+  
+
+<p><img src="https://jotaros.github.io/img/springfit.png" alt="Pantograph" /></p>
+
+<hr />
+
+<p>Joints are crucial to laser cutting as they allow making three-dimensional objects; mounts are crucial because they allow embedding technical components, such as motors. Unfortunately, mounts and joints tend to fail when trying to fabricate a model on a different laser cutter or from a different material. The reason for this lies in the way mounts and joints hold objects in place, which is by forcing them into slightly smaller openings. Such “press fit” mechanisms unfortunately are susceptible to the small changes in diameter that occur when switching to a machine that removes more or less material (“kerf”), as well as to changes in stiffness, as they occur when switching to a different material.</p>
+
+<p>We present a software tool called springFit that resolves this problem by replacing the problematic press fit-based mounts and joints with what we call cantileverbased mounts and joints. A cantilever spring is simply a long thin piece of material that pushes against the object to be held. Unlike press fits, cantilever springs are robust against variations in kerf and material; they can even handle very high variations, simply by using longer springs. SpringFit converts models in the form of 2D cutting plans by replacing all contained mounts, notch joints, finger joints, and t-joints.</p>
+
+<p>For more details visit <a href="https://hpi.de/baudisch/projects/springfit.html" target="_blank">here</a>.</p>
+
+<hr />
+
+<h3 id="publication">Publication</h3>
+
+<ul>
+<li>Thijs Roumen, <u><strong>Jotaro Shigeyama</strong></u>, Julius Romeo Cosmo Rudolph, Felix Grzelka, and Patrick Baudisch: SpringFit: Joints and Mounts that Fabricate on Any Laser Cutter, In Proceedings of UIST&rsquo;19, October, 2019, New Orleans, LA, US.</li>
+</ul>
+
+  </div>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+    crossorigin="anonymous"></script>
+<script src="https://jotaros.github.io/js/custom.js"></script>
+<script src="https://jotaros.github.io/js/tilt.jquery.js"></script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  displayIndent: "2em",
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    processEscapes: true
+  },
+  "HTML-CSS": {
+    availableFonts: [],
+    webFont: "Neo-Euler",
+    mtextFontInherit: true,
+    matchFontHeight: false,
+    scale:110
+  }
+});
+</script>
+<script type="text/javascript"
+src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML">
+</script>
+
+<p id="footer-copyright" align="right">Jotaro Shigeyama, 2019, All Right Reserved.</p>
+</div>
+</body>
+
+</html>

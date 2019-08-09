@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Jotaro Shigeyama</copyright>
-    <lastBuildDate>Fri, 01 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://jotaros.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -39,6 +39,15 @@
       <description>Publications / Journals (Peer Reviewed)
  Thijs Roumen, Jotaro Shigeyama, Julius Romeo Cosmo Rudolph, Felix Grzelka, and Patrick Baudisch: SpringFit: Joints and Mounts that Fabricate on Any Laser Cutter, In Proceedings of UIST&amp;rsquo;19, October, 2019, New Orleans, LA, US.
  Jotaro Shigeyama, Takeru Hashimoto, Shigeo Yoshida, Takuji Narumi, Tomohiro Tanikawa, and Michitaka Hirose: Transcalibur: A Weight Shifting Virtual Reality Controller for 2D Shape Rendering based on Computational Perception Model, In Proceedings of CHI2019, Glasgow, Scotland, UK.</description>
+    </item>
+    
+    <item>
+      <title>springFit: Joints and Mounts that Fabricate on Any Laser-Cutter</title>
+      <link>https://jotaros.github.io/project/springfit/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jotaros.github.io/project/springfit/</guid>
+      <description>SpringFit converts models in the form of 2D cutting plans by replacing all contained mounts, notch joints, finger joints, and t-joints. &lt;br&gt;&lt;br&gt; Full-Paper presented in UIST 2019, New Orleans, LA, US</description>
     </item>
     
     <item>

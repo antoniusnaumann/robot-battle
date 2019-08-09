@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Jotaro Shigeyama</copyright>
-    <lastBuildDate>Fri, 01 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://jotaros.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>springFit: Joints and Mounts that Fabricate on Any Laser-Cutter</title>
+      <link>https://jotaros.github.io/project/springfit/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jotaros.github.io/project/springfit/</guid>
+      <description>SpringFit converts models in the form of 2D cutting plans by replacing all contained mounts, notch joints, finger joints, and t-joints. &lt;br&gt;&lt;br&gt; Full-Paper presented in UIST 2019, New Orleans, LA, US</description>
+    </item>
     
     <item>
       <title>Project Transcalibur</title>
