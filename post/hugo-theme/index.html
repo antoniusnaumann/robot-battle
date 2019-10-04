@@ -76,40 +76,36 @@
 チュートリアルはここから</p>
 
 <ul>
-<li>brewでインストール</li>
-</ul>
+<li><p>brewでインストール</p>
 
 <pre><code class="language-sh">brew install hugo
-</code></pre>
+</code></pre></li>
 
-<ul>
-<li>プロジェクトを生成</li>
-</ul>
+<li><p>プロジェクトを生成</p>
 
 <pre><code class="language-sh">hugo new site yourSiteName
-</code></pre>
+</code></pre></li>
 
-<ul>
-<li>テーマを導入</li>
-</ul>
+<li><p>テーマを導入</p>
 
 <pre><code class="language-sh">cd yourSiteName
 git init
 git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
 
 echo 'theme = &quot;ananke&quot;' &gt;&gt; config.toml
-</code></pre>
+</code></pre></li>
+</ul>
 
 <p>ここでは、yourSiteNameプロジェクト内のthemeフォルダに、submoduleとしてテーマプロジェクトを追加している。
 テーマプロジェクト内は基本的には生成したプロジェクトと同様の構造となっており、exampleもあるので改造しやすい。
 プロジェクトを追加したときに生成されるconfig.tomlを書き換えてテーマをアクティブにする必要がある。</p>
 
 <ul>
-<li>記事を投稿</li>
-</ul>
+<li><p>記事を投稿</p>
 
 <pre><code class="language-sh">hugo new posts/my-first-post.md
-</code></pre>
+</code></pre></li>
+</ul>
 
 <p>config.tomlに以下の文言を追加して、</p>
 
@@ -120,11 +116,11 @@ theme = &quot;ananke&quot;
 </code></pre>
 
 <ul>
-<li>サイトを生成（ビルド）</li>
-</ul>
+<li><p>サイトを生成（ビルド）</p>
 
 <pre><code class="language-sh">hugo server -D
-</code></pre>
+</code></pre></li>
+</ul>
 
 <p><a href="localhost:1337" target="_blank">localhost:1337</a>にアクセスすると、生成されたウェブサイトが見れる。たったこれだけでWEBサイトが完成してしまう。</p>
 
