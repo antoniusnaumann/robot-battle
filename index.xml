@@ -114,9 +114,13 @@ HugoはGo言語で記述された、 スゴイハヤイ静的ウェブジェネ�
 今回は Academic テーマをベースにオリジナルページを作成してみた。
 ウェブサイトはこちら : web
 使い方（初めての人へ） https://gohugo.io/getting-started/quick-start/ チュートリアルはここから
- brewでインストール  brew install hugo   プロジェクトを生成  hugo new site yourSiteName   テーマを導入  cd yourSiteName git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke echo &#39;theme = &amp;quot;ananke&amp;quot;&#39; &amp;gt;&amp;gt; config.toml  ここでは、yourSiteNameプロジェクト内のthemeフォルダに、submoduleとしてテーマプロジェクトを追加している。 テーマプロジェクト内は基本的には生成したプロジェクトと同様の構造となっており、exampleもあるので改造しやすい。 プロジェクトを追加したときに生成されるconfig.tomlを書き換えてテーマをアクティブにする必要がある。
- 記事を投稿  hugo new posts/my-first-post.md  config.tomlに以下の文言を追加して、
-baseURL = &amp;quot;https://example.org/&amp;quot; languageCode = &amp;quot;en-us&amp;quot; title = &amp;quot;My New Hugo Site&amp;quot; theme = &amp;quot;ananke&amp;quot;   サイトを生成（ビルド）  hugo server -D  localhost:1337にアクセスすると、生成されたウェブサイトが見れる。たったこれだけでWEBサイトが完成してしまう。</description>
+ brewでインストール
+brew install hugo  プロジェクトを生成
+hugo new site yourSiteName  テーマを導入
+cd yourSiteName git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke echo &#39;theme = &amp;quot;ananke&amp;quot;&#39; &amp;gt;&amp;gt; config.toml   ここでは、yourSiteNameプロジェクト内のthemeフォルダに、submoduleとしてテーマプロジェクトを追加している。 テーマプロジェクト内は基本的には生成したプロジェクトと同様の構造となっており、exampleもあるので改造しやすい。 プロジェクトを追加したときに生成されるconfig.tomlを書き換えてテーマをアクティブにする必要がある。
+ 記事を投稿
+hugo new posts/my-first-post.md   config.tomlに以下の文言を追加して、
+baseURL = &amp;quot;https://example.org/&amp;quot; languageCode = &amp;quot;en-us&amp;quot; title = &amp;quot;My New Hugo Site&amp;quot; theme = &amp;quot;ananke&amp;quot;   サイトを生成（ビルド）</description>
     </item>
     
     <item>

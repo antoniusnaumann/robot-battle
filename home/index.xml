@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Homes on jotaro shigeyama</title>
-    <link>https://jotaros.github.io/home/</link>
-    <description>Recent content in Homes on jotaro shigeyama</description>
+    <title>Home-rsses on jotaro shigeyama</title>
+    <link>https://jotaros.github.io/home/index.xml</link>
+    <description>Recent content in Home-rsses on jotaro shigeyama</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Jotaro Shigeyama</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://jotaros.github.io/home/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="https://jotaros.github.io/home/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title></title>
@@ -18,7 +16,14 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://jotaros.github.io/home/about/</guid>
-      <description>Jotaro Shigeyama (born in 1993) is currently a Master&amp;rsquo;s student at Hasso Plattner Institute in University of Potsdam / Cyber Interface Lab, the University of Tokyo. He is also a Ph.D candidate in Hasso Plattner Institute in University of Potsdam, with Prof. Patrick Baudisch. He is a fellow student of Funai Fountation for Information Technology (starting from 2019-). He is studying computer science in the graduate school of The University of Tokyo, after finished Associate degree in mechanical and electrical engineering in Tokuyama college of technology and Bachelor&amp;rsquo;s degree in mechano-informatics engineering in the University of Tokyo with Prof.</description>
+      <description>&lt;!-- Your profile description here... --&gt;
+
+&lt;p&gt;Jotaro Shigeyama (born in 1993) is currently a Master&amp;rsquo;s student at Hasso Plattner Institute in University of Potsdam / Cyber Interface Lab, the University of Tokyo. He is also a Ph.D candidate in Hasso Plattner Institute in University of Potsdam, with Prof. Patrick Baudisch.
+He is a fellow student of Funai Fountation for Information Technology (starting from 2019-).
+He is studying computer science in the graduate school of The University of Tokyo, after finished Associate degree in mechanical and electrical engineering in Tokuyama college of technology and Bachelor&amp;rsquo;s degree in mechano-informatics engineering in the University of Tokyo with Prof. Michitaka Hirose. He received &lt;em&gt;HATAKEYAMA&lt;/em&gt; award for his academic excellency in mechanical engineering.
+His project was presented in various top-tier international conference including ACM SIGGRAPH / CHI / UIST.
+His current research area is haptic experience, virtual reality and human computer interaction.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -36,9 +41,151 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://jotaros.github.io/home/publications/</guid>
-      <description>Publications / Journals (Peer Reviewed)
- Thijs Roumen, Jotaro Shigeyama, Julius Romeo Cosmo Rudolph, Felix Grzelka, and Patrick Baudisch: SpringFit: Joints and Mounts that Fabricate on Any Laser Cutter, In Proceedings of UIST&amp;rsquo;19, October, 2019, New Orleans, LA, US.
- Jotaro Shigeyama, Takeru Hashimoto, Shigeo Yoshida, Takuji Narumi, Tomohiro Tanikawa, and Michitaka Hirose: Transcalibur: A Weight Shifting Virtual Reality Controller for 2D Shape Rendering based on Computational Perception Model, In Proceedings of CHI2019, Glasgow, Scotland, UK.</description>
+      <description>&lt;p&gt;&lt;strong&gt;Publications / Journals&lt;/strong&gt; &lt;em&gt;(Peer Reviewed)&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Thijs Roumen, &lt;u&gt;&lt;strong&gt;Jotaro Shigeyama&lt;/strong&gt;&lt;/u&gt;, Julius Romeo Cosmo Rudolph, Felix Grzelka, and Patrick Baudisch: SpringFit: Joints and Mounts that Fabricate on Any Laser Cutter, In Proceedings of UIST&amp;rsquo;19, October, 2019, New Orleans, LA, US.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;u&gt;&lt;strong&gt;Jotaro Shigeyama&lt;/strong&gt;&lt;/u&gt;, Takeru Hashimoto, Shigeo Yoshida, Takuji Narumi, Tomohiro Tanikawa, and Michitaka Hirose: Transcalibur: A Weight Shifting Virtual Reality Controller for 2D Shape Rendering based on Computational Perception Model, In Proceedings of CHI2019, Glasgow, Scotland, UK. [Acceptance Rate: &lt;em&gt;23.8%&lt;/em&gt;] &lt;u style=&#34;color:#FF3F80&#34;&gt;&lt;strong&gt;&lt;em&gt;[CHI2019 Best Paper Honorable Mention]&lt;/em&gt;&lt;/strong&gt;&lt;/u&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Oliver Schneider, &lt;u&gt;&lt;strong&gt;Jotaro Shigeyama&lt;/strong&gt;&lt;/u&gt;, Robert Kovacs, Thijs Roumen, Sebastian Marwecki, Nico Boeckhoff, Daniel-Amadeus Gloeckner, Jonas Bounama and Patrick Baudisch, DualPanto: A Haptic Device that Enables Blind Users to Continuously Interact with Virtual Worlds, In Proceedings of UIST&amp;rsquo;18, October, 2018 [Acceptance Rate: &lt;em&gt;21.3%&lt;/em&gt;]&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;u&gt;&lt;strong&gt;Jotaro Shigeyama&lt;/strong&gt;&lt;/u&gt;, Nami Ogawa, Takuji Narumi, Tomohiro Tanikawa and Michitaka Hirose: Presenting resistive force by modifying joint angles of an avatar, VRSJ Jounal Special Issue, Vol.22, No.3, 2017&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Publications / Journals&lt;/strong&gt; &lt;em&gt;(No Review)&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;u&gt;&lt;strong&gt;Jotaro Shigeyama&lt;/strong&gt;&lt;/u&gt;, Nami Ogawa, Takuji Narumi, Tomohiro Tanikawa and Michitaka Hirose: Basic study of presenting pseudo-haptic feedback by modifying body posture, ITE technical report, June 2017&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Poster / Demo&lt;/strong&gt; &lt;em&gt;(Peer Reviewed)&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Oliver Schneider, &lt;u&gt;&lt;strong&gt;Jotaro Shigeyama&lt;/strong&gt;&lt;/u&gt;, Robert Kovacs, Thijs Roumen, Sebastian Marwecki, Nico Boeckhoff, Daniel-Amadeus Gloeckner, Jonas Bounama and Patrick Baudisch, DualPanto: A Haptic Device that Enables Blind Users to Continuously Interact with Virtual Worlds, In Proceedings of UIST&amp;rsquo;18, October, 2018&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;u&gt;&lt;strong&gt;Jotaro Shigeyama&lt;/strong&gt;&lt;/u&gt;, Takeru Hashimoto, Shigeo Yoshida, Taiju Aoki, Takuji Narumi, Tomohiro Tanikawa and Michitaka Hirose: Transcalibur : Weight Moving VR Controller for Dynamic Rendering of 2D Shape using Haptic Shape Illusion, SIGGRAPH 2018 Emerging Technologies, August 2018&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;u&gt;&lt;strong&gt;Jotaro Shigeyama&lt;/strong&gt;&lt;/u&gt;, Takeru Hashimoto, Shigeo Yoshida, Taiju Aoki, Takuji Narumi, Tomohiro Tanikawa and Michitaka Hirose: Transcalibur : Dynamic 2D Haptic Shape Illusion of Virtual Object by Weight Moving VR Controller, SIGGRAPH 2018 Poster, August 2018, &lt;u style=&#34;color:#FF3F80&#34;&gt;&lt;strong&gt;&lt;em&gt;[SIGGRAPH Student Research Competition Semi-Finalist]&lt;/em&gt;&lt;/strong&gt;&lt;/u&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Yuji Suzuki, &lt;u&gt;&lt;strong&gt;Jotaro Shigeyama&lt;/strong&gt;&lt;/u&gt;, Shigeo Yoshida, Takuji Narumi, Tomohiro Tanikawa and Michitaka Hirose: Food Texture Manipulation by Face Deformation, SIGGRAPH 2018 Poster, August 2018&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Nami Ogawa, &lt;u&gt;&lt;strong&gt;Jotaro Shigeyama&lt;/strong&gt;&lt;/u&gt;, Takuji Narumi and Michitaka Hirose: Swinging 3D Lamps: A Projection Technique to Create 3D Illusions on a Static 2D Image, SIGGRAPH Asia 2017 Emerging Technologies, November 2017&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;u&gt;&lt;strong&gt;Jotaro Shigeyama&lt;/strong&gt;&lt;/u&gt;, Nami Ogawa, Takuji Narumi, Tomohiro Tanikawa and Michitaka Hirose: Presenting a pseudo-haptic feedback in immersive VR environment by modifying avatar&amp;rsquo;s joint angle, IEEE World Haptics 2017, June 2017&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;u&gt;&lt;strong&gt;Jotaro Shigeyama&lt;/strong&gt;&lt;/u&gt;, Designing of English Education Supporting System using Multitouch System, Creative Engineering Design Competition, Kokura, Dec.2011 &lt;strong&gt;&lt;em&gt;The Best Aesthetic Award&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Poster / Demo&lt;/strong&gt; &lt;em&gt;(No Review)&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;小川奈美，&lt;u&gt;&lt;strong&gt;茂山丈太郎&lt;/strong&gt;&lt;/u&gt;，鳴海拓志，谷川智洋，廣瀬通孝．ゆらゆら立体灯：平面画像​に奥行きを付加するプロジェクション手法​．第22回日本バーチャルリアリティ学会大会．2017年9月​&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Exhibitions / Invited Exhibitions&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Transcalibur, 東京大学バーチャルリアリティ教育研究センター設立記念式典-東京大学が挑戦するバーチャルリアリティの未来-&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;bryophytes.io, iiiExhibition 2017, The University of Tokyo&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;ゆらゆら立体灯，マジカリアル～ＶＲ・ＡＲが作り出す不思議体験～，SKIPシティ 彩の国ビジュアルプラザ　映像ミュージアム&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Cyber Interface Lab Exhibition &amp;ldquo;Cybernetic Minds&amp;rdquo;, the University of Tokyo, 2017&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Agricultural Revolution 3.0 &amp;ldquo;第三の農業革命 もう一つの未来に映る 希望的な世界&amp;rdquo;, Farmbot, 山形県鶴岡市, &lt;a href=&#34;http://agri-revolution3.com/&#34; target=&#34;_blank&#34;&gt;http://agri-revolution3.com/&lt;/a&gt;, collaborated project with &lt;a href=&#34;Eugene Kangawa&#34; target=&#34;_blank&#34;&gt;http://eugene-kangawa.com/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Talks&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;u&gt;&lt;strong&gt;Jotaro Shigeyama&lt;/strong&gt;&lt;/u&gt;, Takeru Hashimoto, Shigeo Yoshida, Taiju Aoki, Takuji Narumi, Tomohiro Tanikawa and Michitaka Hirose: Transcalibur : Weight Moving VR Controller for Dynamic Rendering of 2D Shape using Haptic Shape Illusion, SIGGRAPH 2018 Experience Presentations, August 2018.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;小川奈美，&lt;u&gt;&lt;strong&gt;茂山丈太郎&lt;/strong&gt;&lt;/u&gt;，鳴海拓志，谷川智洋，廣瀬通孝．ゆらゆら立体灯：平面画像​に奥行きを付加するプロジェクション手法​．第22回日本バーチャルリアリティ学会大会．2017年9月​&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Articles&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;ワクワク留学体験記, 日本バーチャルリアリティ学会　学会誌, &lt;sup&gt;2019&lt;/sup&gt;&amp;frasl;&lt;sub&gt;03&lt;/sub&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;手描き回路がそのまま動く！RCローパス・フィルタも紙カード上に「表面実装」:描いて貼って出来上がり！電子メッセージ。カード作り, 茂山丈太郎, 清水信哉, トラ技Jr. 23号, 2015&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Patents&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(TO APPEAR)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://shiropen.com/seamless/dualpanto&#34; target=&#34;_blank&#34;&gt;HPIなど、視覚障害者向けのVR触覚デバイスを発表。上部ハンドルで自身のアバターを動かし、下部ハンドルで他の物体の動きを知覚&lt;/a&gt;, Seamless, 2019&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.arduino.cc/2018/10/22/dualpanto-is-a-non-visual-gaming-interface-for-the-blind/&#34; target=&#34;_blank&#34;&gt;DualPanto is a non-visual gaming interface for the blind&lt;/a&gt;, Arduino Blog, 2018&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://shiropen.com/seamless/vr-transcalibur&#34; target=&#34;_blank&#34;&gt;東京大学、1台のハンドヘルドコントローラでVR内の様々な形状の触覚を再現できるVRデバイスを発表&lt;/a&gt; ,Seamless, 2018&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Awards and honors&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;CHI2019 Best Paper Honorable Mention, 2019&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;SIGGRAPH Student Research Competition (SRC) Semi-Finalist for &lt;em&gt;Transcalibur&lt;/em&gt;, 2018&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;U-Tokyo Architecture graduation work &lt;strong&gt;&lt;em&gt;NAKAMURA-TATSUTARO&lt;/em&gt;&lt;/strong&gt; Award for Project:CoPRO : collaborated with &lt;em&gt;Takato Ishida&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;HackU 2015 UTxTama-art  &lt;strong&gt;&lt;em&gt;Grand Prize&lt;/em&gt;&lt;/strong&gt; for Dokimakura&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;em&gt;HATAKEYAMA&lt;/em&gt;&lt;/strong&gt; Award (JSME &lt;em&gt;Best student award&lt;/em&gt; ), Mar,2014&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Fellowship and Grants&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Fellowship of &lt;a href=&#34;https://funaifoundation.jp/&#34; target=&#34;_blank&#34;&gt;Funai Foundation for Information Technology&lt;/a&gt; (2019-, top &amp;lt;10% Ph.D applicants for abroad in Japan, 2500USD per month)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Grant of scholarship from Hasso Plattner Institute&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Teaching&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Building Interactive Devices and Computer Vision, WS2019/20, Hasso Plattner Institute.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Academic Services&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Organizing Committees&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ACM UIST2019 &lt;strong&gt;&lt;em&gt;Registration Chair&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;ACM UIST2018 &lt;strong&gt;&lt;em&gt;Registration Co-Chair&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Reviewer&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;to appear(1)&lt;/li&gt;
+&lt;li&gt;to appear(2)&lt;/li&gt;
+&lt;li&gt;ACM SIGGRAPH Asia 2018&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Student Volunteer&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ACM CHI2018 Student Volunteer&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Others&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Japan Olympiad in Informatics 2010-2011, Finalist&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
   </channel>
