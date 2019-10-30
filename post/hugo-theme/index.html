@@ -76,36 +76,40 @@
 チュートリアルはここから</p>
 
 <ul>
-<li><p>brewでインストール</p>
+<li>brewでインストール</li>
+</ul>
 
 <pre><code class="language-sh">brew install hugo
-</code></pre></li>
+</code></pre>
 
-<li><p>プロジェクトを生成</p>
+<ul>
+<li>プロジェクトを生成</li>
+</ul>
 
 <pre><code class="language-sh">hugo new site yourSiteName
-</code></pre></li>
+</code></pre>
 
-<li><p>テーマを導入</p>
+<ul>
+<li>テーマを導入</li>
+</ul>
 
 <pre><code class="language-sh">cd yourSiteName
 git init
 git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
 
 echo 'theme = &quot;ananke&quot;' &gt;&gt; config.toml
-</code></pre></li>
-</ul>
+</code></pre>
 
 <p>ここでは、yourSiteNameプロジェクト内のthemeフォルダに、submoduleとしてテーマプロジェクトを追加している。
 テーマプロジェクト内は基本的には生成したプロジェクトと同様の構造となっており、exampleもあるので改造しやすい。
 プロジェクトを追加したときに生成されるconfig.tomlを書き換えてテーマをアクティブにする必要がある。</p>
 
 <ul>
-<li><p>記事を投稿</p>
+<li>記事を投稿</li>
+</ul>
 
 <pre><code class="language-sh">hugo new posts/my-first-post.md
-</code></pre></li>
-</ul>
+</code></pre>
 
 <p>config.tomlに以下の文言を追加して、</p>
 
@@ -116,11 +120,11 @@ theme = &quot;ananke&quot;
 </code></pre>
 
 <ul>
-<li><p>サイトを生成（ビルド）</p>
+<li>サイトを生成（ビルド）</li>
+</ul>
 
 <pre><code class="language-sh">hugo server -D
-</code></pre></li>
-</ul>
+</code></pre>
 
 <p><a href="localhost:1337" target="_blank">localhost:1337</a>にアクセスすると、生成されたウェブサイトが見れる。たったこれだけでWEBサイトが完成してしまう。</p>
 
@@ -194,39 +198,3 @@ theme = &quot;ananke&quot;
 <br><br>
 
 
-
-
-<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
-    crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
-    crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
-    crossorigin="anonymous"></script>
-<script src="https://jotaros.github.io/js/custom.js"></script>
-<script src="https://jotaros.github.io/js/tilt.jquery.js"></script>
-
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  displayIndent: "2em",
-  tex2jax: {
-    inlineMath: [['$','$'], ['\\(','\\)']],
-    processEscapes: true
-  },
-  "HTML-CSS": {
-    availableFonts: [],
-    webFont: "Neo-Euler",
-    mtextFontInherit: true,
-    matchFontHeight: false,
-    scale:110
-  }
-});
-</script>
-<script type="text/javascript"
-src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML">
-</script>
-
-<p id="footer-copyright" align="right">Jotaro Shigeyama, 2019, All Right Reserved.</p>
-</div>
-</body>
-
-</html>
