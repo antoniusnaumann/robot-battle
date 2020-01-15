@@ -29,7 +29,9 @@
 
 &lt;hr /&gt;
 
-&lt;p&gt;In this projet, Jotaro has contributed to the system that automatically generates ideal parameters of the spring geometry: cantilver spring that produces aimed forces and deflection and will not break easily. Based on the &lt;em&gt;Euler-Bernoulli cantilver theory&lt;/em&gt;, Jotaro has build C++ executable system that optimizes the spring geometry based on given geometric constraints.&lt;/p&gt;
+&lt;h3 id=&#34;jotaro-s-contribution&#34;&gt;Jotaro&amp;rsquo;s contribution&lt;/h3&gt;
+
+&lt;p&gt;In this project, Jotaro has contributed to the system that automatically generates ideal parameters of the spring geometry: cantilver spring that produces aimed forces and deflection and will not break easily. Based on the &lt;em&gt;Euler-Bernoulli cantilver theory&lt;/em&gt;, Jotaro has build C++ executable system that optimizes the spring geometry based on given geometric constraints.&lt;/p&gt;
 
 &lt;p&gt;For more details, paper and video, visit &lt;a href=&#34;https://hpi.de/baudisch/projects/springfit.html&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
