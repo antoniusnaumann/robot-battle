@@ -7,8 +7,61 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Jotaro Shigeyama</copyright>
-    <lastBuildDate>Thu, 01 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 25 Apr 2020 00:00:00 +0100</lastBuildDate>
     <atom:link href="https://jotaros.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>MetaなVirtualは，Virtual Conferenceを救うか？</title>
+      <link>https://jotaros.github.io/post/meta-virtual/</link>
+      <pubDate>Sat, 25 Apr 2020 00:00:00 +0100</pubDate>
+      
+      <guid>https://jotaros.github.io/post/meta-virtual/</guid>
+      <description>
+
+&lt;h2 id=&#34;学会は-永遠に姿を変えた&#34;&gt;「学会は, 永遠に姿を変えた」?&lt;/h2&gt;
+
+&lt;p&gt;COVID-19の影響で，世界各国・様々な分野の学会が中止・もしくはオンライン開催となっている．
+VRやHCI分野でのオンサイト学会中止は &lt;u&gt;特にデモの発表が必須な触覚・タンジブル関係の分野に致命的な打撃を与えかねない&lt;/u&gt;&lt;/p&gt;
+
+&lt;p&gt;オンラインでデモを開催するとなったとして，物を触っている際の絶妙な体験を離れた人のために伝えるためにはどういった工夫が必要なのか．例えば，「指先にこんな力が加わっていますよ」ということを示すための矢印(ベクトル?)，みたいなものもあるかもしれないが，個人的には情報可視化の域を超えない気がする(なぜ？→ここでのゴールは体験の可視化だから)&lt;/p&gt;
+
+&lt;p&gt;「白猫プロジェクト」というコロプラ社の開発したスマホゲームに，「ぷにコン」という疑似触覚を用いたインタフェースが採用されている（一時期，任天堂の権利を侵害したとして広く話題になった→DSのゲームで同様のインタフェースがあった．厳密には異なると思うけど・・・）．「あたかもぷにぷにした触覚を触っているように感じさせる」視覚的刺激＝疑似触覚（Pseudo-haptics)を利用したものだが，&lt;u&gt;このインタフェースは実はゲーム配信をした際にも，視聴者に同様に触体験が届く&lt;/u&gt; ．&lt;/p&gt;
+
+&lt;h2 id=&#34;meta-virtual&#34;&gt;Meta-Virtual&lt;/h2&gt;
+
+&lt;p&gt;&lt;u&gt;バーチャルリアリティの永遠の課題は「あたかも◯◯したように感じさせられる」体験の設計&lt;/u&gt; であり，それはそのままそっくり，Virtualの定義を与える．学会でのバーチャルリアリティ・デモは，実際に学会会場でHMDをかぶってもらって，あたかも◯◯したかのように感じてもらって，自らの研究の意義を伝えてきた．しかし今後数年間は，思うようにデモをできなくなるだろうし，今後永遠に学会そのものの形が変わってしまうことも考えられる（環境問題もしかり）．&lt;/p&gt;
+
+&lt;p&gt;つまり，あるバーチャルな体験を，リモートでさらに体験したかのように感じられる，&lt;u&gt;メタ・バーチャル&lt;/u&gt; が必要，ということになるのではないか．そういう意味で「ぷにコン」はよくできているなぁと思う．今，YoutubeにはUSJやら鼠の王国のライドをそのまま動画にしたものまでも転がっており，再生数を無駄に稼ぎ，コンテンツとして消費され，ゴミの山と化している．「目で見て消費されるだけの体験」と，「体験として心に残り続ける，メタ・バーチャル」との差別化が求められている・・・気がする．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>UIST2019参加報告</title>
+      <link>https://jotaros.github.io/post/uist2019-report/</link>
+      <pubDate>Thu, 30 Jan 2020 00:00:00 +0100</pubDate>
+      
+      <guid>https://jotaros.github.io/post/uist2019-report/</guid>
+      <description>
+
+&lt;blockquote&gt;
+&lt;p&gt;本記事はVR学会の記事 (&lt;a href=&#34;https://vrsj.org/report/10864/&#34; target=&#34;_blank&#34;&gt;https://vrsj.org/report/10864/&lt;/a&gt;) に掲載されたものの本人による抜粋です．&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;ユーザインタフェースに関するトップカンファレンスの一つであるUIST2019(&lt;a href=&#34;https://uist.acm.org/uist2019/)が，アメリカ・ルイジアナ州最大の都市であるニューオリンズで10月20日から23日の4日間の日程にて開催された．1988年から始まったUISTは今回で32回目を数えた．Paper&#34; target=&#34;_blank&#34;&gt;https://uist.acm.org/uist2019/)が，アメリカ・ルイジアナ州最大の都市であるニューオリンズで10月20日から23日の4日間の日程にて開催された．1988年から始まったUISTは今回で32回目を数えた．Paper&lt;/a&gt; trackは全381件のSubmissionに対して93件が採択され，採択率は24%であった．前回のベルリンでのUIST2018(&lt;sup&gt;80&lt;/sup&gt;&amp;frasl;&lt;sub&gt;375&lt;/sub&gt; = 21%)よりも多く，東京でのUIST2016(&lt;sup&gt;79&lt;/sup&gt;&amp;frasl;&lt;sub&gt;384&lt;/sub&gt;=21%)に次いで2位のSubmission数となり，投稿数はここ１０年間で上昇傾向にある．　筆者は本学会のOrganizerとして昨年に引き続きRegistration Chairを務めた．今年のUISTは510人の参加があり，前回ベルリンの560人に対して減少しており，学会の開催地に参加者数が影響されると考えられる．学生の参加はうち254人であ　り，参加者全体の半数以上を占めた．日本からの参加者は73名で，アメリカ(270名)についで2位であった．国際的にも日本のユーザインタフェース研究の規模は大きいと考えられる．学会会場はニューオリンズ市内中心部のフレンチ・クオーターにあるRoyal Sonesta Hotelで開催された．ジャズ発祥の地とあって，朝早くからジャズの生演奏があちらこちらで聞こえていた．&lt;/p&gt;
+
+&lt;h3 id=&#34;面白かった研究とか&#34;&gt;面白かった研究とか&lt;/h3&gt;
+
+&lt;p&gt;今回のPaperセッションは2セッションが並行して進められる形式であった．VR関連のセッションも複数あり，AR/MR，ハプティクス，VRヘッドセット技術に関して27件と，全体のPaperの中でもVRが最も多いキーワードとなった．個人的に興味深い研究としては，Lindlbauerらによるユーザの認知負荷に応じてリアルタイムにMR空間内のGUIの情報量を最適化するシステム，Marweckiらの視線トラッキングを用いてVR内の視界外の物体表示を操作する研究，Heoらの振動感覚だけで棒を曲げる・伸ばすなどの感覚が得られるデバイスなどがあった．　また，Sinclairらによるキャプスタンをもちいて超小型モータのトルクを増幅しつつ極めて応答性の高い力覚デバイスや，Jeらによるドローンのロータを用いたVRコントローラなど，触覚ハードウェアに関する研究も多く紹介された．筆者のものも含め，近年様々なVR触覚提示デバイスが提案されていたが，個人的な考えとしては，デバイスの新規性や性能にとどまらず，むしろそれらを用いて如何に体験をデザインするかという議論をすべきではないかと感じさせられた．Demoセッションではそれらの触覚デバイスをはじめ様々なシステムを実際に触れて体験できる機会が設けられた．&lt;/p&gt;
+
+&lt;h3 id=&#34;面白かったセッションやら&#34;&gt;面白かったセッションやら&lt;/h3&gt;
+
+&lt;p&gt;3日目の夕方には，UISTの参加者に向けて今後のユーザインタフェースのVisionを語る，UIST Visionsというセッションが開催された．セッションではUniversitéParis-SudからMichel Beaudouin-Lafon教授がアプリというソフトウェア同士の垣根の概念を超えた存在について”A World Without Apps”というテーマで，また東京大学から暦本純一教授がヒトとAIの融合を通じた人間拡張について”Homo Cyberneticus: The Era of Human-AI Integration”というテーマで発表した．学生を含む参加者からの質疑応答もあり，それぞれのテーマについて活発な議論がなされた．UIST Visionsは前回に引き続いて2回目の開催であった．本学会にラディカルな議論の場が設けられたことから，コミュニティ全体のユーザインタフェース研究における新たなブレークスルーへの需要がさらに高まっているのではないかと感じた．　学会のBanquetは会場からほど近いミシシッピ川沿いのAudubon Aquariumを貸し切って開催された．Student Innovation ContestもBanquet中に開催され，Edge TPUなどを用いた学生らの作品群が多くの参加者の注目を集めていた．Student Innovation Contestは学部生などにもコミュニティへの参加を促す目的もあり，場合によっては旅費・参加費が支援されるため，日本のUI研究に興味がある学生にはぜひ積極的に参加してほしいと感じた．&lt;/p&gt;
+
+&lt;h3 id=&#34;uist-is-about-earth&#34;&gt;UIST is about Earth&lt;/h3&gt;
+
+&lt;p&gt;本学会ではSustainabilityをテーマとして，学会開催に伴う環境問題に考慮した学会運営がなされた．具体的には，カンファレンスで配られるバッグやプログラムを配布しない・紙とリサイクル可能な素材のみで作ったカンファレンスバッジなどの対策が取られた．国際的に環境問題への関心が高まる中で，航空機の移動など伴う国際会議がもたらす影響が非常に大きいことを鑑みれば，今後VRカンファレンスなどの需要が極めて高まると考えられる．Closing KeynoteにおいてもVRカンファレンスに関するプレゼンがあり，今回のUISTでも実験的にVR会場が設けられるなどされたが，VRカンファレンスに関してはノウハウが足りていない部分も見受けられる．日本のVR研究者がVRカンファレンスの重要性について更に議論し，ぜひ今後のVR学会大会ではVRカンファレンスも実践し，分野を世界的にリードする役割を担うべきだろう．　33回目となる次回のUIST2020(&lt;a href=&#34;https://uist.acm.org/uist2020/)は，2020年10月20日-23日に，アメリカ・ミネソタ州のミネアポリスで開催される予定である．&#34; target=&#34;_blank&#34;&gt;https://uist.acm.org/uist2020/)は，2020年10月20日-23日に，アメリカ・ミネソタ州のミネアポリスで開催される予定である．&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>springFit: Joints and Mounts that Fabricate on Any Laser-Cutter</title>
@@ -893,25 +946,6 @@ AgIC got a 2nd prize in Global Fab Award in the event.&lt;/p&gt;
       <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jotaros.github.io/project/copro/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Content tagged as &#39;Academic&#39;</title>
-      <link>https://jotaros.github.io/tags/academic/_index/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://jotaros.github.io/tags/academic/_index/</guid>
-      <description>&lt;p&gt;Here is a list of all the content that has been tagged as &lt;em&gt;academic&lt;/em&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Posts</title>
-      <link>https://jotaros.github.io/post/_index/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://jotaros.github.io/post/_index/</guid>
       <description></description>
     </item>
     
