@@ -10,6 +10,35 @@
     <atom:link href="https://jotaros.github.io/tags/mech/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Kerf-Canceling Mechanisms: Making Laser-Cut Mechanisms Operate Across Different Laser Cutters</title>
+      <link>https://jotaros.github.io/project/kerfc/</link>
+      <pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jotaros.github.io/project/kerfc/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://jotaros.github.io/img/kerfc.png&#34; alt=&#34;Example image&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;center&gt; Kerf-Canceling Mechanisms: Making Laser-Cut Mechanisms Operate Across Different Laser Cutters&lt;/center&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;
+
+&lt;p&gt;Getting laser-cut mechanisms, such as those in microscopes,robots, vehicles, etc., to work, requires all their components to be dimensioned precisely. This precision, however, tends to be lost when fabricating on a different laser cutter, as it is likely to remove more or less material (aka kerf). We address this with what we call kerf-canceling mechanisms. Kerf-canceling mechanisms replace laser-cut bearings, sliders, gear pairs, etc. Unlike their traditional counterparts, however, they keep working when manufactured on a different laser cutter and/or with different kerf. Kerf-canceling mechanisms achieve this by adding an additional wedge element per mechanism. We have created a software tool Kerf-Canceler that locates traditional mechanisms in cutting plans and replaces them with their kerf-canceling counterparts.&lt;/p&gt;
+
+&lt;p&gt;For more details, paper and video, visit &lt;a href=&#34;https://hpi.de/baudisch/projects/kerf-canceling-mechanisms.html&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;UIST2020 Technical Paper&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Kerf-Canceling Mechanisms: Making Laser-Cut Mechanisms Operate Across Different Laser Cutters&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Project Transcalibur</title>
       <link>https://jotaros.github.io/project/transcalibur/</link>
       <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
