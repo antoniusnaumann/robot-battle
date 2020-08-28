@@ -7,8 +7,118 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Jotaro Shigeyama</copyright>
-    <lastBuildDate>Thu, 20 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2020 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://jotaros.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>SpeechIOForUnity</title>
+      <link>https://jotaros.github.io/project/speechioforunity/</link>
+      <pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jotaros.github.io/project/speechioforunity/</guid>
+      <description>
+
+&lt;p&gt;A ready-to-use Unity plugin for Speech Input/Output using native Speech API of &lt;i&gt;both&lt;/i&gt; Apple macOS and MS Windows.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/HassoPlattnerInstituteHCI/SpeechIOForUnity&#34; target=&#34;_blank&#34;&gt;github project page is here.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Author: Jotaro Shigeyama and Thijs Roumen&lt;/p&gt;
+
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Custom command speech input&lt;/li&gt;
+&lt;li&gt;Support for various speed / language.&lt;/li&gt;
+&lt;li&gt;Async/await-based interaction design.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-example.cs&#34;&gt;
+SpeechOut speechOut = new SpeechOut();
+SpeechIn  speechIn  = new SpeechIn(OnRecognized);
+
+void Start(){
+    Dialog();
+}
+
+async void Dialog(){
+    await speechOut.Speak(&amp;quot;Hello!&amp;quot;);
+    await speechIn.Listen(new string[] { &amp;quot;Hello&amp;quot;, &amp;quot;Hi&amp;quot;, &amp;quot;Hey&amp;quot; });
+    await speechOut.Speak(&amp;quot;How are you doing?&amp;quot;);
+    await speechIn.Listen(new string[] { &amp;quot;I&#39;m fine&amp;quot;, &amp;quot;Nah&amp;quot;, &amp;quot;I&#39;m Sick&amp;quot; });
+    //...
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This project repo contains&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Unity project (this repo, tested with v.2019.3.0a8)&lt;/li&gt;
+&lt;li&gt;XCode project NSSpeechForUnity (author: Jotaro Shigeyama)&lt;/li&gt;
+&lt;li&gt;Visual Studio project WindowsVoiceProject originally from here (&lt;a href=&#34;https://chadweisshaar.com/blog/2015/07/02/microsoft-speech-for-unity/&#34; target=&#34;_blank&#34;&gt;https://chadweisshaar.com/blog/2015/07/02/microsoft-speech-for-unity/&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Unity project contains pre-built &lt;code&gt;.dll&lt;/code&gt; and &lt;code&gt;.bundle&lt;/code&gt; from above source project.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+
+&lt;p&gt;This plugin works and tested on macOS Catalina or above, and Windows 10 (Windows 8 is not supported).&lt;/p&gt;
+
+&lt;h3 id=&#34;os-setup&#34;&gt;OS setup&lt;/h3&gt;
+
+&lt;p&gt;Right now English / Dutch / German / Japanese are supported. You need to install necessary language module from your OS setting.&lt;/p&gt;
+
+&lt;h3 id=&#34;unity&#34;&gt;Unity&lt;/h3&gt;
+
+&lt;p&gt;Just simply grab all Scripts, Plugins (and if Scenes if you need) to your own Unity project file.&lt;/p&gt;
+
+&lt;h3 id=&#34;potential-installation-issue-for-macos&#34;&gt;Potential installation issue for macOS&lt;/h3&gt;
+
+&lt;p&gt;Some macOS users will experience broken speech input due to missing dictation kits: mostly because of bug on Apple. If you encounter some issue on speech input, please try these.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;make sure your native voice command system works (System Preferences &amp;gt; Accessibility &amp;gt; Voice Command, enabling voice command will invoke macOS system voice command input windows.)
+
+&lt;ul&gt;
+&lt;li&gt;Go to &amp;ldquo;Preferences &amp;gt; Accessibility &amp;gt; Sound Control &amp;gt; Language&amp;rdquo; and install language pack.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;In case of macOS have some buggy issues: Try switching your OS language to another, then try to install your desired voice command module (macOS will prompt you to download missing dictation model.)&lt;/li&gt;
+&lt;li&gt;Make sure your macOS is the latest version&lt;/li&gt;
+&lt;li&gt;Try rebooting the system.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;dev-installation&#34;&gt;dev-Installation&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;XCode (mac)&lt;/li&gt;
+&lt;li&gt;Visual Studio (win, latest Windows SDK required)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;testing-your-nsspeechrecognizer&#34;&gt;Testing your NSSpeechRecognizer&lt;/h3&gt;
+
+&lt;p&gt;tested on Apple Swift version 5.1.3&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd NSSpeechTest
+swift run
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;using-in-your-own-unity-package&#34;&gt;Using in your own Unity package&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Build NSSpeechForUnity in XCode.&lt;/li&gt;
+&lt;li&gt;Copy generated &lt;code&gt;.bundle&lt;/code&gt; file in &lt;code&gt;Assets/Plugins&lt;/code&gt; of your Unity project.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;modifying-voice-command-dictionary&#34;&gt;Modifying voice command dictionary&lt;/h3&gt;
+
+&lt;p&gt;See &lt;code&gt;MyMacSpeechScript.cs&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;documentation&#34;&gt;Documentation&lt;/h2&gt;
+
+&lt;p&gt;coming soon.&lt;/p&gt;
+
+&lt;p&gt;Your feedback is welcome!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Kerf-Canceling Mechanisms: Making Laser-Cut Mechanisms Operate Across Different Laser Cutters</title>
@@ -955,17 +1065,6 @@ AgIC workshop has exhibited an installation to show what&amp;rsquo;s possible wi
       
       <guid>https://jotaros.github.io/project/jtrwatch/</guid>
       <description>&lt;p&gt;JTRWatch is a prototype of smartwatch using Intel Edison, built in 2 weeks during a school project.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Lighting Coaster:AgIC Workshop design</title>
-      <link>https://jotaros.github.io/project/agic_workshop/</link>
-      <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://jotaros.github.io/project/agic_workshop/</guid>
-      <description>&lt;p&gt;We organized a new program of workshop where we made lightning coaster, using Circuit Sticker from Chibitronics.
-AgIC got a 2nd prize in Global Fab Award in the event.&lt;/p&gt;
 </description>
     </item>
     
