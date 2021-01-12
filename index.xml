@@ -7,8 +7,83 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Jotaro Shigeyama</copyright>
-    <lastBuildDate>Fri, 28 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 Jan 2021 19:34:11 +0100</lastBuildDate>
     <atom:link href="https://jotaros.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Unityで対話型音声認識アプリを作れるフレームワークをつくった</title>
+      <link>https://jotaros.github.io/post/speechioforunity/</link>
+      <pubDate>Tue, 12 Jan 2021 19:34:11 +0100</pubDate>
+      
+      <guid>https://jotaros.github.io/post/speechioforunity/</guid>
+      <description>
+
+&lt;blockquote&gt;
+&lt;p&gt;macOS, Windows両方で動く、Unityで対話型の音声認識アプリがすぐに作れるフレームワークを作りました。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Downloads&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;リポジトリへのリンク：&lt;a href=&#34;https://github.com/HassoPlattnerInstituteHCI/SpeechIOForUnity&#34; target=&#34;_blank&#34;&gt;https://github.com/HassoPlattnerInstituteHCI/SpeechIOForUnity&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Unity Package: &lt;a href=&#34;https://github.com/HassoPlattnerInstituteHCI/SpeechIOForUnity/releases/tag/v1.0&#34; target=&#34;_blank&#34;&gt;https://github.com/HassoPlattnerInstituteHCI/SpeechIOForUnity/releases/tag/v1.0&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;つかいかた&#34;&gt;つかいかた&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;SpeechOut/SpeechIn&lt;/code&gt;を宣言し、以下のように書くだけ。&lt;/strong&gt;
+&lt;pre&gt;
+&lt;code class=&#34;language-cs&#34;&gt;
+SpeechOut speechOut = new SpeechOut();
+SpeechIn  speechIn  = new SpeechIn(OnRecognized);&lt;/p&gt;
+
+&lt;p&gt;void Start(){
+    Dialog();
+}&lt;/p&gt;
+
+&lt;p&gt;async void Dialog(){
+    await speechOut.Speak(&amp;ldquo;Hello!&amp;rdquo;);
+    await speechIn.Listen(new string[] { &amp;ldquo;Hello&amp;rdquo;, &amp;ldquo;Hi&amp;rdquo;, &amp;ldquo;Hey&amp;rdquo; });
+    await speechOut.Speak(&amp;ldquo;How are you doing?&amp;rdquo;);
+    await speechIn.Listen(new string[] { &amp;ldquo;I&amp;rsquo;m fine&amp;rdquo;, &amp;ldquo;Nah&amp;rdquo;, &amp;ldquo;I&amp;rsquo;m Sick&amp;rdquo; });&lt;/p&gt;
+
+&lt;p&gt;}
+&lt;/code&gt;
+&lt;/pre&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;なぜつくったか&#34;&gt;なぜつくったか&lt;/h2&gt;
+
+&lt;p&gt;macOS, Windowsを使う学生のために、Unityを扱う授業で音声認識を使った対話型アプリを作るためのフレームワークがあればいいなと思ったので作りました。
+主に非同期処理の&lt;code&gt;async/await&lt;/code&gt;ベースで、逐次処理をわかりやすく書けるように、また速度や”間”などのチューニングも簡単にできるようにしました。&lt;/p&gt;
+
+&lt;p&gt;授業ではmac, Windowsそれぞれを使う学生を同様に対応しないといけないのですが、Unityそのものは双方で動作する一方、ネイティブOSの機能を使おうとすると相互にコードを共有できない＝他のチームやグループが作ったアプリを動作させられないことになるので、このようなコードを作りました。&lt;/p&gt;
+
+&lt;p&gt;授業のためとはいえ、一般的に使いやすいツールだと思います。&lt;/p&gt;
+
+&lt;h2 id=&#34;osネイティブの音声認識-音声合成&#34;&gt;OSネイティブの音声認識・音声合成&lt;/h2&gt;
+
+&lt;h3 id=&#34;macos側&#34;&gt;macOS側&lt;/h3&gt;
+
+&lt;p&gt;macOSネイティブのオフライン音声認識ツールとしては、&lt;code&gt;NSSpeechRecognizer&lt;/code&gt;が、音声合成ツールとしては、コマンドラインツールとして&lt;code&gt;say&lt;/code&gt;があります。このうち、&lt;code&gt;say&lt;/code&gt;に関してはUnity上の&lt;code&gt;System.Diagnostics.Process&lt;/code&gt;から呼び出すことで実行できます（この点、Argsをいじるだけで声質とか速度を変えられるのでサイコー）&lt;/p&gt;
+
+&lt;p&gt;一方の&lt;code&gt;NSSpeechRecognizer&lt;/code&gt;はOSネイティブAPIとして提供されている機能なので、実行するためには&lt;code&gt;Objective-C&lt;/code&gt;もしくは&lt;code&gt;Swift&lt;/code&gt;で記述されたコードから実行する必要があります。&lt;/p&gt;
+
+&lt;p&gt;今回のフレームワークでは別途&lt;a href=&#34;https://github.com/HassoPlattnerInstituteHCI/SpeechIOForUnity/tree/master/NSSpeechForUnity&#34; target=&#34;_blank&#34;&gt;NSSpeechForUnity&lt;/a&gt;として、&lt;code&gt;NSSpeechRecognizer&lt;/code&gt;を呼び出す&lt;code&gt;Objective-C&lt;/code&gt;コードを書き、外部ライブラリとして&lt;code&gt;.bundle&lt;/code&gt;ファイルを書き出し、それをUnityのPluginとすることで実行しています。&lt;/p&gt;
+
+&lt;h3 id=&#34;windows側&#34;&gt;Windows側&lt;/h3&gt;
+
+&lt;p&gt;逆にWindows側では&lt;code&gt;UnityEngine.Windows.Speech&lt;/code&gt;なるモジュールがあり、音声認識に関してはUnityから直接実行できる一方、音声合成に関しては別途WindowsのネイティブAPI＝&lt;a href=&#34;https://ja.wikipedia.org/wiki/Speech_Application_Programming_Interface&#34; target=&#34;_blank&#34;&gt;SAPI&lt;/a&gt;を叩く必要がありました。コード内で別途&lt;a href=&#34;https://github.com/HassoPlattnerInstituteHCI/SpeechIOForUnity/tree/master/WindowsVoiceProject&#34; target=&#34;_blank&#34;&gt;WindowsVoiceProject&lt;/a&gt;として、Visual Studioから.dllをビルドできるプロジェクトを作り、その.dllをUnityのPluginにします。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;以上２つのOSに関して独自にライブラリを書き出すことによって実現しましたが、Unity上で非同期の動作を実現させるため、それぞれの処理がきちんと終わったかどうかを常に監視するためのコードを書く必要があります。たとえば&lt;a href=&#34;https://github.com/HassoPlattnerInstituteHCI/SpeechIOForUnity/blob/0ac6cfe8b468f970524b6dc558d0656bf501322c/NSSpeechForUnity/NSSpeechForUnity/native.m#L75&#34; target=&#34;_blank&#34;&gt;このように&lt;/a&gt;、内部のStateを逐一変えて、Unity側から監視することで、UnityのAsync/Awaitが進行するように若干HardCodedな感じではありますが、リアルタイムアプリケーションのための非同期処理を実現しています。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;応用&#34;&gt;応用&lt;/h2&gt;
+
+&lt;p&gt;対話型アプリケーションのためとは言いましたが、VRアプリケーションなどのための目と手が離せない際のデバッグ（イベントが起こったときにどのフラグが立ったか喋って教えてくれる）や、視覚障害者向けアプリなど、様々な用途が考えられます。「デバッグのときになにか喋ってくれたら便利だな」とか、「アクセシビリティ機能の充実したアプリを作りたいな」などというときにはぜひ使ってみてください。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>SpeechIOForUnity</title>
@@ -1055,16 +1130,6 @@ AgIC workshop has exhibited an installation to show what&amp;rsquo;s possible wi
 &lt;p&gt;The installation is designed to be one of Japanese ethnic ornament &amp;ldquo;Kazaguruma&amp;rdquo;, a litte windmill. Japanese ethnic pattern &amp;ldquo;Wagara&amp;rdquo; is printed with conductive ink on each mill with chip LED mouted. Sensors on the board detects human passage, and mills rotate as if wind blew on them.&lt;/p&gt;
 
 &lt;p&gt;We showed that flexible circuit design can easily be built and designing product can be also be flexible.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>JTRWatch</title>
-      <link>https://jotaros.github.io/project/jtrwatch/</link>
-      <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://jotaros.github.io/project/jtrwatch/</guid>
-      <description>&lt;p&gt;JTRWatch is a prototype of smartwatch using Intel Edison, built in 2 weeks during a school project.&lt;/p&gt;
 </description>
     </item>
     
