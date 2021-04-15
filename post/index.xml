@@ -832,5 +832,19 @@ import jotaro as jojo
 </description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://jotaros.github.io/post/steamvr-driver/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jotaros.github.io/post/steamvr-driver/</guid>
+      <description>
+
+&lt;h1 id=&#34;届かないものに届かせるため&#34;&gt;届かないものに届かせるため&lt;/h1&gt;
+
+&lt;p&gt;怪我や障がいが原因で，手足を伸ばせない，回せない，という状況や，とても狭い空間や周りに沢山ものがある状況で，通常VR内でアクティビティ（スポーツや戦闘，物を拾ったりするなどのインタラクション）が難しいことがある．今回は，VR内でのコントローラの移動量をスケーリングしたり，回転量を変調したりするシステムを構築した．&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
