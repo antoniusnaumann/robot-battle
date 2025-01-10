@@ -3,6 +3,8 @@ let battleField;
 function setup() {
     createCanvas(windowWidth, windowHeight);
     battleField = new BattleField(random(width), random(height));
+    noLoop();
+    redraw();
 }
 
 function draw(){
@@ -24,6 +26,7 @@ function keyPressed(){
     if (keyCode === DOWN_ARROW){
         battleField.diameter -= 1000;
     }
+    redraw();
 }
 
 class BattleField {
