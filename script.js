@@ -10,20 +10,20 @@ function setup() {
 function draw(){
     background(0);
     battleField.draw();
-    text("r to randomize, c to center. up/down arrow to increase/decrease diameter", 10, 10);
+    text("r to randomize, c to center. +/- to increase/decrease diameter", 10, 10);
 }
 
 function keyPressed(){
-    if (keyCode === 32) {
+    if (key === 'r' || key === 'R') {
         battleField.refresh_center();
     }
-    if (keyCode === 67) {
+    if (key === 'c' || key === 'C') {
         battleField.center();
     }
-    if (keyCode === UP_ARROW){
+    if (key === '=' || key === '+') {
         battleField.diameter += 1000;
     }
-    if (keyCode === DOWN_ARROW){
+    if (key === '-') {
         battleField.diameter -= 1000;
     }
     redraw();
